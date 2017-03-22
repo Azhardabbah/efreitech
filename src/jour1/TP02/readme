@@ -1,0 +1,14 @@
+
+# Enoncé
+
+Creer un programme qui affiche sur la sortie standard le nom de tout les chanteurs present dans le String JSON
+
+Maven Dependencies :
+
+<dependency>
+    <groupId>com.googlecode.json-simple</groupId>
+    <artifactId>json-simple</artifactId>
+    <version>1.1.1</version>
+</dependency>
+
+
