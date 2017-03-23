@@ -5,13 +5,6 @@ import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.function.Consumer;
-import java.util.function.Function;
-import java.util.stream.Stream;
-
 /**
  * . jour1.TP02
  *
