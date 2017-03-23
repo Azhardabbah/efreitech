@@ -10,7 +10,6 @@
     <name>effrei-java</name>
 
     <properties>
-
     </properties>
 
     <dependencies>
@@ -35,10 +34,8 @@
                 </configuration>
             </plugin>
         </plugins>
-
     </build>
 
     <profiles>
-
     </profiles>
 </project>

@@ -1,16 +1,11 @@
-package jour1.TP03;
+package main.jour1.TP02;
 
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
-import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Iterator;
-import java.util.function.Consumer;
-import java.util.function.Function;
-import java.util.stream.Stream;
 
 /**
  * . jour1.TP02
@@ -18,7 +13,7 @@ import java.util.stream.Stream;
  * @author alamoulie
  * @date 22/03/17
  */
-public class tp03 {
+public class tp02 {
 
 
 
@@ -57,11 +52,11 @@ public class tp03 {
             Object obj = parser.parse(JSON);
             JSONArray jsonArray = (JSONArray) obj;
 
-            jsonArray.stream()
-                    .forEach(s -> {
-                JSONObject prof = (JSONObject) s;
-                System.out.println(prof.get("name"));
-            });
+            Iterator<JSONObject> iterator = jsonArray.iterator();
+            while (iterator.hasNext()) {
+                JSONObject name = iterator.next();
+                System.out.println(name.get("name"));
+            }
 
         } catch (Exception e) {
             System.out.println("ERROR");

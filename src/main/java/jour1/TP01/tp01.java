@@ -1,4 +1,4 @@
-package jour1.TP01;
+package main.jour1.TP01;
 
 /**
  *
